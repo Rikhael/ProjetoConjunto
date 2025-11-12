@@ -1,8 +1,6 @@
 library(readxl)
 library(ggplot2)
 library(usethis)
-use_git_config(user.name = "VitorEBFerreira",
-               user.mail = "ferreiravitor@id.uff.br")
 
 dados = read_excel("Base Casos.xlsx")
 ggplot(dados, aes(y = Estatura)) + 
