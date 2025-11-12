@@ -1,7 +1,7 @@
-library(readxl)
+library(readxl)  #pacote para leitura da base
 library(ggplot2) #pacote para construção de gráficos
 
-dados = read_excel("Base Casos.xlsx")
+dados = read_excel("Base Casos.xlsx") #lendo base
 ggplot(dados, aes(y = Estatura)) +  #construindo boxplot de estatura
   geom_boxplot(fill = "skyblue") +
   labs(title = "Boxplot do da Estatura", y = "Altura (metros)") +
