@@ -8,3 +8,4 @@ ggplot(dados, aes(y = Estatura)) +  #construindo boxplot de estatura
   theme_bw() + 
   theme(axis.text.x = element_blank())
 
+#altura média é de aproximadamente 1.66
