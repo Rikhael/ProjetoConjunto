@@ -7,5 +7,5 @@ ggplot(dados, aes(y = Estatura)) +  #construindo boxplot de estatura
   labs(title = "Boxplot do da Estatura", y = "Altura (metros)") +
   theme_bw() + 
   theme(axis.text.x = element_blank())
-
-#altura média é de aproximadamente 1.66
+mean(dados$Estatura)
+#altura média é 1.674348
